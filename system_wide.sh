@@ -7,6 +7,6 @@ apt-get update
 
 # change timezone info
 echo 'Asia/Taipei' > /etc/timezone
-sudo dpkg-reconfigure --frontend noninteractive tzdata
+dpkg-reconfigure --frontend noninteractive tzdata
 
 apt-get install -y git-core
