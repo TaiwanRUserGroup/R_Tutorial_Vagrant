@@ -14,4 +14,4 @@ apt-get update
 echo 'Asia/Taipei' > /etc/timezone
 dpkg-reconfigure --frontend noninteractive tzdata
 
-apt-get install -y git-core libcurl4-openssl-dev r-base gdebi-core libapparmor1
+apt-get install -y git-core libcurl4-openssl-dev r-base gdebi-core libapparmor1 libxml2-dev
