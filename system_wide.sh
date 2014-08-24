@@ -16,3 +16,8 @@ dpkg-reconfigure --frontend noninteractive tzdata
 
 apt-get install -y git-core libcurl4-openssl-dev r-base gdebi-core libapparmor1 libxml2-dev
 apt-get install -y phantomjs
+
+apt-get install gdebi-core
+apt-get install libapparmor1 # Required only for Ubuntu, not Debian
+wget http://download2.rstudio.org/rstudio-server-0.98.1028-i386.deb
+gdebi rstudio-server-0.98.1028-i386.deb
