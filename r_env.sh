@@ -1,4 +1,4 @@
-RSTUDIO_VER="0.98.977"
+RSTUDIO_VER="0.98.1028"
 wget http://download2.rstudio.org/rstudio-server-$RSTUDIO_VER-i386.deb --no-verbose
 gdebi -n -q rstudio-server-$RSTUDIO_VER-i386.deb
 rm rstudio-server-$RSTUDIO_VER-i386.deb
