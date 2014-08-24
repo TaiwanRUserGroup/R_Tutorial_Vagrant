@@ -28,7 +28,7 @@ Windows
 
 .. _Vagrant: http://www.vagrantup.com/downloads.html
 .. _Virtualbox: https://www.virtualbox.org/wiki/Downloads
-.. _git-win: http://msysgit.github.io/
+.. _git-win: http://msysgit.github.com/
 
 安裝好後，執行「Git Bash」進入命令列模式
 
